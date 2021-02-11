@@ -10,6 +10,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -169,7 +170,6 @@ img {
     background-size: cover;    
     text-align: center;
     padding-top: 20px;
-
 }
 
 .introducao-interna h1 {
@@ -188,7 +188,7 @@ img {
     margin: 14px auto 10px auto;
 }
 
-    /* Produtos */
+/* Produtos */
 
 .produtos {
     padding: 60px 0;
@@ -197,6 +197,10 @@ img {
 .produtos-lista li {
     background: #FEC63E;
     text-align: center;
+}
+
+.produtos-lista li img {
+    margin: 0 auto;
 }
 
 .produtos-lista li h3 {
@@ -230,6 +234,7 @@ img {
     padding-top: 40px;
     text-align: center;
     clear: both;
+    padding-bottom: 40px;
 }
 
 .call p {
@@ -243,7 +248,6 @@ img {
     background: #000;
     padding: 40px 0;
     margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .portfolio .subtitulo {
@@ -266,7 +270,6 @@ img {
 
 .qualidade {
     padding: 60px 0;
-    height: 500px;
 }
 
 .qualidade:after {
